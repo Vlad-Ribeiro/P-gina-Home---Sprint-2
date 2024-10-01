@@ -81,6 +81,7 @@ footer {
 
 footer menu {
     list-style: none;
+    padding-right: 40px;
 }
 
 footer menu li {
