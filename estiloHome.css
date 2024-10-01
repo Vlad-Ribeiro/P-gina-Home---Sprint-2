@@ -18,9 +18,10 @@ header {
 }
 
 header h2 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     color: #024873;
+    margin: 0px;
 }
 
 header menu {
