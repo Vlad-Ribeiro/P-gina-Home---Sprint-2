@@ -1,3 +1,5 @@
+/* Geral */
+
 body {
     background-color: #F0F6F5;
     margin: 0px;
@@ -30,7 +32,7 @@ header menu {
 }
 
 header menu li {
-    margin-right: 30px;
+    margin-left: 30px;
     font-size: 27px;
     font-weight: bold;
 }
@@ -40,6 +42,7 @@ header menu li {
 .banner {
     display: flex;
     justify-content: space-between;
+    padding-top: 100px;
 }
 
 .banner div {
@@ -68,6 +71,75 @@ header menu li {
     height: 750px;
 }
 
+/* Seção arduino */
+
+.arduino{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arduino h2 {
+    font-size: 64px;
+}
+
+.divArduino {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 35px;
+    align-items: center;
+}
+
+.divArduino2 {
+    font: 138px;
+    color: #0A8CBF;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+}
+
+.divArduino2 h2 {
+    font-size: 100px;
+}
+
+.arduino img {
+    height: 500px;
+    width: 450px;
+}
+
+.arduino a {
+    color: black;
+}
+
+
+/* Seção Quem Somos */
+
+.quemSomos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quemSomos h2 {
+    font-size: 64px;
+}
+
+.quemSomos .divQuemSomos {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: 35px;
+}
+
+.quemSomos img {
+    height: 500px;
+    width: 500px;
+}
+
 /* Footer: */
 
 footer {
@@ -89,5 +161,25 @@ footer menu li {
 }
 
 .duvidas li{
+    list-style: disc;
     margin-bottom: 10px;
+}
+
+li::marker {
+    color: #012623;
+}
+
+footer menu input {
+    text-align: center;
+    background-color: #012623;
+    border: ridge white 1px;
+    border-radius: 3px;
+    padding: 5px 8px;
+    color: white;
+}
+
+/* Extras */
+
+a:hover {
+    color: #0A8CBF;
 }
